@@ -49,6 +49,8 @@ local mapinfo = {
 	},
 
 	teams = {
+		[0] = {startPos = {x = 0, z = 0}},
+		[1] = {startPos = {x = 0, z = 0}},
 	},
 
 	terrainTypes = {
