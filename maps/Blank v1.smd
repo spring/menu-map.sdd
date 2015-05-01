@@ -1,0 +1,61 @@
+[MAP]
+{
+	Description=2x2, Blank Map.;
+	TidalStrength=0;
+	Gravity=115;
+	MaxMetal=1.0;
+	ExtractorRadius=90;
+	MapHardness=1000;
+	AutoShowMetal=0;
+	DetailTex=blankdetailtex.bmp;
+	
+	[SMF]{
+	maxheight=0;
+	minheight=100;
+	}
+
+	[ATMOSPHERE]
+	{
+		FogColor=0 0 0;
+		FogStart=0;
+		CloudColor=0 0 0;
+		SkyColor=0 0 0;
+		SunColor=0 0 0;
+		CloudDensity=0;
+		MinWind=0;
+		MaxWind=0.1;
+	}
+
+	[WATER]
+	{
+		WaterSurfaceColor=0 0 0;
+		WaterPlaneColor=0 0 0;
+		WaterBaseColor=0 0 0;
+		WaterAbsorb=0 0 0;
+		WaterMinColor=0 0 0;
+	}
+
+	[LIGHT]
+	{
+		SunDir=1.2 0.75 0.55;
+		GroundAmbiantColor=0 0 0;
+		GroundSunColor=0 0 0;
+		GroundShadowDensity=1;
+		UnitAmbiantColor=0.02 0 0;
+		UnitSunColor=1 0.70 0.25;
+		UnitShadowDensity=1;
+		SpecularSunColor=1 0.70 0.25;
+	}
+	[TEAM0]
+	{
+		StartPosX=0;
+		StartPosZ=0;
+	}
+	[TEAM1]
+	{
+		StartPosX=1024;
+		StartPosZ=1024;
+	}
+
+
+}

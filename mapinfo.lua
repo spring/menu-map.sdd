@@ -9,7 +9,7 @@ local mapinfo = {
 	description = "Spring engine menu",
 	author      = "",
 	version     = "$VERSION",
-	--mapfile   = "", --// location of smf/sm3 file (optional)
+	mapfile   = "maps/Blank v1.smf", --// location of smf/sm3 file (optional)
 	modtype     = 3, --// 1=primary, 0=hidden, 3=map
 	depend      = {"Map Helper v1"},
 	replace     = {},
